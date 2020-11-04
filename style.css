@@ -1,0 +1,108 @@
+*{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+body{
+	background-color:black;
+	color:white;
+}
+/*Home*/
+.nav1{
+	list-style-type:none;
+	 background-color:#2f4f4f;
+	text-align:center;
+	flex:100%;
+	display:flex;
+	margin:0;
+	padding:0;
+	height:30px;
+}
+.nav1 li{
+	display:inline-block;
+	flex-grow:1;
+	display:flex-grow;
+	font-size:22px;
+}
+.nav1 a{
+	text-decoration:none;
+	color:white;
+}
+.nav1 a:hover{
+	text-decoration:underline;	
+}	
+.h1{
+	text-align:center;
+	font-size:40px;
+	color:crimson;
+}
+.h2{
+	text-align:center;
+	font-family: 'Kaushan Script';	
+	color:#db7093;
+}
+.div1{
+	text-align:center;
+	/*height:300px;*/
+	vertical-align: middle;
+	font-family: 'Kaushan Script';	
+	color:honeydew;
+	/*background-image: url("download\ \(1\).jpg");
+	background-repeat: repeat-x;
+	background-size: auto;*/
+}
+.h3{
+	/*padding-top: 10%;*/
+}
+
+.link1 li{
+	font-size:22px;
+	text-align:center;
+}
+.link1 a{
+	text-align:center;
+	text-decoration:none;
+	color:white;
+}
+.link1 a:hover{
+	text-decoration:underline;	
+}	
+.link1 ul{
+	list-style: none;
+}
+.book1{
+	float: left;
+	width:25%;
+}
+.book2{
+	display:block;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+}
+.checked {
+	color: orange;
+  }
+.button1{
+	background-color:limegreen;
+	padding:2 px;
+	height:20px;
+}
+.left{
+	float: left;
+	width:60%;
+}
+.right{
+	display:block;
+	overflow: hidden;
+	overflow-y: scroll;
+	height:400px;
+}
+.book3{
+	float: left;
+	width:50%;
+}
+.book4{
+	display:block;
+	overflow: hidden;
+}
