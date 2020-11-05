@@ -21,7 +21,7 @@ body{
 	display:inline-block;
 	flex-grow:1;
 	display:flex-grow;
-	font-size:22px;
+	font-size:22vw;
 }
 .nav1 a{
 	text-decoration:none;
