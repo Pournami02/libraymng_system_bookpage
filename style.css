@@ -20,7 +20,7 @@ body{
 	 background-color:#2f4f4f;
 	text-align:center;
 	flex:100%;
-	display:flex;
+	/*display:flex;*/
 	display:flex-grow;
 	margin:0;
 	padding:0;
