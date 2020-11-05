@@ -2,14 +2,14 @@
 	margin-left: 2%;
 	margin-right: 2%;
 }
-@viewport{
+/*@viewport{
 	zoom:1.0;
 	width:extend-to-zoom;
 }
 @-ms-viewport{
 	width:extend-to-zoom;
 	zoom:1.0;
-}
+}*/
 body{
 	background-color:blue;
 	color:white;
@@ -29,7 +29,7 @@ body{
 	display:inline-block;
 	flex-grow:1;
 	display:flex-grow;
-	font-size:22vw;
+	font-size:22px;
 }
 .nav1 a{
 	text-decoration:none;
@@ -63,7 +63,7 @@ body{
 }
 
 .link1 li{
-	font-size:22vw;
+	font-size:22px;
 	text-align:center;
 }
 .link1 a{
