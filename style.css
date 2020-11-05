@@ -2,6 +2,14 @@
 	margin-left: 2%;
 	margin-right: 2%;
 }
+/*@viewport{
+	zoom:1.0;
+	width:extend-to-zoom;
+}
+@-ms-viewport{
+	width:extend-to-zoom;
+	zoom:1.0;
+}*/
 body{
 	background-color:blue;
 	color:white;
@@ -15,7 +23,7 @@ body{
 	display:flex;
 	margin:0;
 	padding:0;
-	height:30px;
+	min-height:30px;
 }
 .nav1 li{
 	display:inline-block;
@@ -32,7 +40,7 @@ body{
 }	
 .h1{
 	text-align:center;
-	font-size:40px;
+	font-size:40;
 	color:crimson;
 }
 .h2{
@@ -85,8 +93,8 @@ ul{
   }
 .button1{
 	background-color:limegreen;
-	padding:2 px;
-	height:20px;
+	padding:2 vw;
+	min-height:20px;
 }
 .left{
 	float: left;
@@ -96,7 +104,7 @@ ul{
 	display:block;
 	overflow: hidden;
 	overflow-y: scroll;
-	height:400px;
+	min-height:400px;
 }
 .book3{
 	float: left;
