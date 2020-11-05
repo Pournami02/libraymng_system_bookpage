@@ -1,17 +1,17 @@
 *{
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 0.2%;
+	margin-right: 0.2%;
 }
-/*@viewport{
+@viewport{
 	zoom:1.0;
 	width:extend-to-zoom;
 }
 @-ms-viewport{
 	width:extend-to-zoom;
 	zoom:1.0;
-}*/
+}
 body{
-	background-color:blue;
+	background-color:red;
 	color:white;
 }
 /*Home*/
@@ -20,7 +20,8 @@ body{
 	 background-color:#2f4f4f;
 	text-align:center;
 	flex:100%;
-	display:flex;
+	/*display:flex;*/
+	display:flex-grow;
 	margin:0;
 	padding:0;
 	min-height:30px;
@@ -84,6 +85,7 @@ body{
 .book2{
 	display:block;
 	overflow: hidden;
+	width:60%;
 }
 ul{
 	list-style: none;
@@ -94,7 +96,7 @@ ul{
 .button1{
 	background-color:limegreen;
 	padding:2 vw;
-	min-height:20px;
+	min-height:20vh;
 }
 .left{
 	float: left;
@@ -104,7 +106,7 @@ ul{
 	display:block;
 	overflow: hidden;
 	overflow-y: scroll;
-	min-height:400px;
+	min-height:400vh;
 }
 .book3{
 	float: left;
