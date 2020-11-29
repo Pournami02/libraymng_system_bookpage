@@ -30,13 +30,13 @@ body{
 	display:flex-grow;
 	margin:0;
 	padding:0;
-	min-height:3vh;
+	min-height:4vh;
 }
 .nav1 li{
 	display:inline-block;
 	flex-grow:1;
 	display:flex-grow;
-	font-size:4vh;
+	font-size:3vh;
 	position: relative;
 	z-index: 1;
 }
