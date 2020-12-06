@@ -88,12 +88,12 @@ body{
 }
 .book1{
 	float: left;
-	width:40%;
+	width:45%;
 }
 .book2{
 	display:block;
 	overflow: hidden;
-	width:60%;
+	width:40%;
 }
 ul{
 	list-style: none;
